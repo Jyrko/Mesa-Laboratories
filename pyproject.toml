@@ -1,0 +1,17 @@
+[project]
+name = "mesa-laboratories"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Jyrko",email = "uriydemoshenko@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mesa[rec] (>=3.1.4,<3.2.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
